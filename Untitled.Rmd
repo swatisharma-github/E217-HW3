@@ -1,0 +1,17 @@
+---
+title: "HW3, Econ 217"
+author: "Swati Sharma"
+date: "2/18/2018"
+output: html_document
+---
+
+```{r echo=FALSE}
+library("foreign")
+library("dplyr")
+library("tidyr")
+
+vetData <- read.csv("https://people.ucsc.edu/~aspearot/Econ_217/veteran.csv")
+
+
+```
+
